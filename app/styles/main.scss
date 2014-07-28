@@ -98,7 +98,6 @@ body {
 	}
 
 .project-container {
-	/*background-image: url("http://wickedmusestudio.files.wordpress.com/2010/10/black-velvet.jpg");*/
 	background-color: white;
 	color: black;
 	height: 800px;
@@ -122,9 +121,12 @@ body {
 		border-top: 7px solid #F3F3F3;
 		border-right: 7px solid #F3F3F3;
 		border-left: 7px solid #F3F3F3;
-
 	}
 
+	img:hover{
+		opacity: 0.5;
+
+	}
 }
 
 .footer {
