@@ -2,9 +2,10 @@ body {
 	
 	font-family: 'Sintony', sans-serif;
 	color: white;
-	background-color: #194775;
+	/*background-color: #194775;*/
 	margin:0px auto;
 	padding: 0;
+	background-color: black;
 
 
 }
@@ -34,7 +35,7 @@ body {
 
 
 .header {
-	background-image: url("https://scontent-b.xx.fbcdn.net/hphotos-xpa1/t31.0-8/135464_1806875974206_1535756_o.jpg");
+	background-image: url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg");
 		-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -45,7 +46,7 @@ body {
  	text-align: center;
  	height: 600px;
  	max-width: 100%;
- 	opacity: 0.5;	
+ 	opacity: 0.7;	
  		-webkit-transition: all 2s ease-in-out;
 	-moz-transition: all 2s ease-in-out;
 	-o-transition: all 2s ease-in-out;
@@ -58,6 +59,7 @@ body {
 		font-size: 60px;
 		color: #194775;
 		font-family: 'Pompiere', cursive;
+		
 	}
 
 	h2 {
@@ -126,7 +128,7 @@ body {
 .project-container {
 	background-color: white;
 	color: black;
-	height: 1300px;
+	height: 1100px;
 	width: 100%;
 	font-size: 30px;
 	padding-top: 10px;
@@ -182,6 +184,20 @@ button:hover{
 		background-color:#194775;
 		color: white;
 	}
+
+
+
+.work-container{
+	height: 300px;
+	width: 100%;
+	background-image: url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg");
+		-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+ 	
+}
+
 
 
 .footer {
