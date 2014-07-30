@@ -23,7 +23,7 @@ body {
 		display: inline-block;
 		font-weight: bold;
 		margin-top: 30px;
-		margin-left: 200px;
+		margin-left: 150px;
 		cursor: pointer;
 		font-size: 20px;
 
@@ -188,15 +188,28 @@ button:hover{
 
 
 .work-container{
-	height: 300px;
+	height: 400px;
 	width: 100%;
-	background-image: url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg");
-		-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
- 	background-size: cover;
- 	
+	background-color: #C2D6D6;
+
+ 	button{
+ 		width:300px;
+ 		height: 200px;
+ 		background-color:#194775;
+ 		border: 20px solid white;
+ 		color: white;
+ 		margin-top: 100px;
+ 		margin-left: 50px;
+
+ 	}
+
+button:hover{
+		
+		border: 20px solid #194775;
+		color: white;
+	}
 }
+
 
 
 

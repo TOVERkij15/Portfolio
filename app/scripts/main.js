@@ -25,4 +25,8 @@ $(".projects-button").click(function() {
     }, 800);
 });
 
-
+$(".work-button").click(function() {
+    $('body').animate({
+        scrollTop: $(".work-container").offset().top
+    }, 800);
+});
