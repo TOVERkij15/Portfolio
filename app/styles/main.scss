@@ -6,6 +6,7 @@ body {
 	margin:0px auto;
 	padding: 0;
 
+
 }
 
 .border {
@@ -13,9 +14,8 @@ body {
 	width: 100%;
 	background-color: #194775;
 	position: fixed;
+	z-index: 10;
 	
-
-
 	li{
 		width: 100px;
 		color:#C2D6D6;
@@ -25,9 +25,13 @@ body {
 		margin-left: 200px;
 		cursor: pointer;
 		font-size: 20px;
+
+
 		
 	}
 }
+
+
 
 .header {
 	background-image: url("https://scontent-b.xx.fbcdn.net/hphotos-xpa1/t31.0-8/135464_1806875974206_1535756_o.jpg");
@@ -46,6 +50,8 @@ body {
 	-moz-transition: all 2s ease-in-out;
 	-o-transition: all 2s ease-in-out;
 	transition: all 2s ease-in-out;
+	z-index: 1;
+
 
 
 	h1 {
