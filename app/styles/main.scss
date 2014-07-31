@@ -3,35 +3,29 @@ body {
 	font-family: 'Sintony', sans-serif;
 	color: white;
 	background-color: #C2D6D6;
-	margin:0px auto;
+	margin:0 auto;
 	padding: 0;
-
-
 }
 
 .border {
-	height: 70px;
+	height: 10%;
 	width: 100%;
 	background-color: #194775;
 	position: fixed;
 	z-index: 10;
 	
 	li{
-		width: 100px;
-		color:#C2D6D6;
+		width: 6.250em;
+		color: #C2D6D6;
 		display: inline-block;
 		font-weight: bold;
-		margin-top: 30px;
-		margin-left: 150px;
+		margin-top: 1.875em;
+		margin-left: 7.125em;
 		cursor: pointer;
-		font-size: 20px;
-
-
+		font-size: 1.250em;
 		
 	}
 }
-
-
 
 .header {
 	background-image: url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg");
@@ -41,9 +35,9 @@ body {
  	background-size: cover;
  	position: relative;
  	margin: 0px;
- 	padding-top:70px;
+ 	padding-top:4.375em;
  	text-align: center;
- 	height: 600px;
+ 	height: 37.500em;
  	max-width: 100%;
  	opacity: 0.7;	
  		-webkit-transition: all 2s ease-in-out;
@@ -52,22 +46,19 @@ body {
 	transition: all 2s ease-in-out;
 	z-index: 1;
 
-
-
 	h1 {
-		font-size: 60px;
+		font-size: 3.750em;
 		color: #194775;
 		font-family: 'Pompiere', cursive;
-		
 	}
 
 	h2 {
-		font-size: 20px;
+		font-size: 1.250em;
 		
 	}
 
 	h3 {
-		font-size: 20px;
+		font-size: 1.250em;
 	}
 }
 
@@ -82,68 +73,46 @@ body {
 
 }
 
-
 .container {
 	background-color: #F3F3F3;
-	height: 400px;
+	height: 40%;
 	max-width: 100%;
 	color: black;
 	opacity: none;
-	margin: 0px;	
+	font-size: 1.250em;
+	text-align: center;
+	padding-left: 3.125em;
+	padding-right: 3.125em;
 
 	img{
+		margin-top:10px;
 		border-radius: 50%;
-		margin-left: 300px;
-		border: 6px solid #C2D6D6;
+		border: 0.375em solid #C2D6D6;
 	}
-
-
-}	 	
-
-.column-one {
-	height: 50px;
-	width: 150px;
-   	border-bottom: 4px solid #194775;
-    padding-top: 10px;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 600px;
-
 }
-	p {
-		display: block;
-		font-weight: bold;
-		font-size: 16px;
-		margin-top: 10px;
-		margin-left: 500px;
-		line-height: 25px;
-		width: 500px;
-		height: 45px;
-		
-
-
-	}
 
 .project-container {
 	background-color: white;
 	color: black;
-	height: 1100px;
-	width: 100%;
-	font-size: 30px;
-	padding-top: 10px;
+	height: 90%;
+	max-width: 100%;
+	font-size: 1.875em;
+	padding-bottom: 1.625em;
+	padding-top:0.625em;
+	display: inline-block;
+	text-align: center;
 	
-	h4{
-		border-bottom: 4px solid #C2D6D6;
-		height: 50px;
-		width: 150px;
+	/*h4 {
+		border-bottom: 0.250em solid #C2D6D6;
+		height: 3.125em;
+		width: 9.375em;
 		text-align: center;
-		margin-left: 600px;
-
-	}
+		margin-left: 20.500em;
+	}*/
 
 	img {
-		margin-left: 15px;
-		margin-top: 10px;
+		margin-left: 0.538em;
+		margin-top: 0.625em;
 
 	}
 
@@ -151,79 +120,67 @@ body {
 		opacity: 0.8;
 
 	}
-}
+
 
 .project {
 	display: inline-block;
 	background-color: #F3F3F3;
-	height: 350px;
-	width: 330px;
-	margin-left:100px;
-	margin-top: 50px;
+	height: 11.875em;
+	width: 11.125em;
+	margin-top: 3.125em;
+	margin-left: 1.125em;
+	padding-right: 0.550em;
 
 	button{
-		margin-left: 15px;
-		font-size: 15px;
-		width: 300px;
-		height: 100px;
+		margin-left: 0.538em;
+		font-size: 0.938em;
+		width: 10.725em;
+		height: 3.250em;
 		background-color: #C2D6D6;
-		border:white;
-
+		border: white;
 	}
 
 		a{
 			color: white;
 			text-decoration: none;
-
 		}
-	}
-
-
-button:hover{
-		background-color:#194775;
-		color: white;
-
-	}
-
-
-
-.work-container{
-	height: 200px;
-	width: 100%;
-	background-color: #C2D6D6;
-	padding-top: 0px;
-
-	p{
 	
-		margin-left: 200px;
-		display: block;
-		color: black;
-		font-size: 20px;
-		text-align: center;
-
-	}
-
- 	button{
- 		width: 900px;
- 		height: 150px;
- 		background-color:#4775A3;
- 		border: 5px solid #C2D6D6;
- 		color: white;
- 		margin-top: 0px;
- 		display:block;
- 		margin-right: 0px;
- 		cursor: pointer;
-
-
- 	}
-
-button:hover{
-		background-color:#194775;
-		border: 3px solid #C2D6D6;
-		color: white;
+	button:hover{
+				background-color: #194775;
+				color: white;
+		}
 	}
 }
 
+.work-container {
+	height: 20%;
+	max-width: 100%;
+	background-color: #C2D6D6;
+	padding-top: 0;
+
+	p {
+		color: black;
+		font-size: 2em;
+		text-align: center;
+	}
+
+ 	button{
+ 		width: 16.250em;
+ 		height: 16.250em;
+ 		background-color: #4775A3;
+ 		border: 0.313em solid #C2D6D6;
+ 		color: white;
+ 		margin-top: 0;
+ 		display: inline-block;
+ 		cursor: pointer;
+	
+		button:hover{
+			background-color: #194775;
+			border: 0.188em solid #C2D6D6;
+			color: white;
+		}
+	}
+}
 
 #modal {
 	left:50%;
@@ -238,22 +195,20 @@ button:hover{
 	transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
-
 }
 
 #modal:target {
 		opacity: 1;
 		top:50%;
 		visibility: visible;
-		
 	}
 
 #modal h7 {
 	text-align:center;
 	color: black;
 	font-size: 20px;
-
 }
+
 #modal .btn {
 	text-decoration: none;
 	color: White;
@@ -263,11 +218,13 @@ button:hover{
 	padding-top:10px;
 	float: right;
 }
+
 #modal .copy,#modal .work-container, #modal .test {
 	padding:20px;
 	font-size: 20px;
 	color: black;
 }
+
 .modal-content {
 	background-color:#F3F3F3;
 	border: 10px solid #194775;
@@ -277,8 +234,6 @@ button:hover{
 	height: 300px;
 	width: 300px;
 }
-
-
 
 #modal-two {
 	left:50%;
@@ -293,9 +248,8 @@ button:hover{
 	transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
-
 }
-	/* Make the modal appear when targeted */
+
 	#modal-two:target {
 		opacity: 1;
 		top:50%;
@@ -308,6 +262,7 @@ button:hover{
 	font-size: 20px;
 
 }
+
 #modal-two .btn {
 	float:right;
 	text-decoration: none;
@@ -317,11 +272,13 @@ button:hover{
 	border-radius:20%;
 	padding-top:10px;
 }
+
 #modal-two .copy,#modal-two .work-two-container, #modal-two .test-two {
 	padding:20px;
 	font-size: 20px;
 	color: black;
 }
+
 .modal-two-content {
 	background-color:#F3F3F3;
 	border: 10px solid #194775;
@@ -331,8 +288,6 @@ button:hover{
 	height: 300px;
 	width: 300px;
 }
-
-
 
 #modal-three {
 	left:50%;
@@ -349,7 +304,7 @@ button:hover{
 	-webkit-transition: all 0.4s ease-in-out;
 
 }
-	/* Make the modal appear when targeted */
+	
 	#modal-three:target {
 		opacity: 1;
 		top:50%;
@@ -362,6 +317,7 @@ button:hover{
 	font-size: 20px;
 
 }
+
 #modal-three .btn {
 	float:right;
 	text-decoration: none;
@@ -371,11 +327,13 @@ button:hover{
 	border-radius:20%;
 	padding-top:10px;
 }
+
 #modal-three .copy,#modal-three .work-three-container, #modal-three .test-three {
 	padding:20px;
 	font-size: 20px;
 	color: black;
 }
+
 .modal-three-content {
 	background-color:#F3F3F3;
 	border: 10px solid #194775;
@@ -385,9 +343,6 @@ button:hover{
 	height: 300px;
 	width: 300px;
 }
-
-
-
 
 #modal-four {
 	left:50%;
@@ -402,9 +357,8 @@ button:hover{
 	transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-webkit-transition: all 0.4s ease-in-out;
-
 }
-	/* Make the modal appear when targeted */
+	
 	#modal-four:target {
 		opacity: 1;
 		top:50%;
@@ -417,6 +371,7 @@ button:hover{
 	font-size: 20px;
 
 }
+
 #modal-four .btn {
 	float:right;
 	text-decoration: none;
@@ -426,11 +381,13 @@ button:hover{
 	border-radius:20%;
 	padding-top:10px;
 }
+
 #modal-four .copy,#modal-four .work-four-container, #modal-four .test-four {
 	padding:20px;
 	font-size: 20px;
 	color: black;
 }
+
 .modal-four-content {
 	background-color:#F3F3F3;
 	border: 10px solid #194775;
@@ -441,70 +398,47 @@ button:hover{
 	width: 300px;
 }
 
-
-
-
-
-
 .footer {
-	display: block;
 	background-color: #194775;
 	width: 100%;
-	height: 400px;
+	height: 20%;
 
-
-	
 	img{
 		display: inline-block;
-		margin-top: 10px;
-		padding-left:10px;
-		margin-bottom: 0px;
-		margin-left: 10px;
+		margin-top: 0.625em;
+		margin-bottom: 0;
 		color: white;
-		
-	}
+		margin-left: 0px;
+	
 		img:hover {
-		opacity: 0.3;
-
-	}			
-
-
-}	
-
-h5 {
+			opacity: 0.3;
+		}			
+	}
+		
+	h5 {
 		display: block;
 		text-align: center;
-		font-size: 30px; 
-		margin-top: 0px;
-		padding-top: 50px;
+		font-size: 1.875em; 
+		margin-top: 0;
+		padding-top: 3.125em;
 		overflow: hidden;
-		margin-bottom: 0px;
-	
+		margin-bottom: 0;
 	}
-
-
-
+	
 	
 .social {
-	display: block;
-	margin-left:500px;
-	margin-bottom:100px;
-}
+	display: inline-block;
+	margin-left: 30.250em;
+	margin-bottom: 6.250em;
+	height: 50%;
+}	
 	
-.copyright {
-	border-top: 2px solid #C2D6D6;
-	color: black;
-	
-
-
 	p{
-		margin-top: 0px;
-		display: inline-block;
-		padding-top: 50px;
-		font-size: 12px;
-		margin-left: 20px;
+		
+		display: block;
+		font-size: 0.750em;
+		border-top: 0.125em solid #C2D6D6;
+		padding-bottom:0px;
 	}
+
 }
-
-
-	/* Make the modal appear when targeted */
