@@ -2,10 +2,9 @@ body {
 	
 	font-family: 'Sintony', sans-serif;
 	color: white;
-	/*background-color: #194775;*/
+	background-color: #C2D6D6;
 	margin:0px auto;
 	padding: 0;
-	background-color: black;
 
 
 }
@@ -183,32 +182,266 @@ body {
 button:hover{
 		background-color:#194775;
 		color: white;
+
 	}
 
 
 
 .work-container{
-	height: 400px;
+	height: 200px;
 	width: 100%;
 	background-color: #C2D6D6;
+	padding-top: 0px;
+
+	p{
+	
+		margin-left: 200px;
+		display: block;
+		color: black;
+		font-size: 20px;
+		text-align: center;
+
+	}
 
  	button{
- 		width:300px;
- 		height: 200px;
- 		background-color:#194775;
- 		border: 20px solid white;
+ 		width: 900px;
+ 		height: 150px;
+ 		background-color:#4775A3;
+ 		border: 5px solid #C2D6D6;
  		color: white;
- 		margin-top: 100px;
- 		margin-left: 50px;
+ 		margin-top: 0px;
+ 		display:block;
+ 		margin-right: 0px;
+ 		cursor: pointer;
+
 
  	}
 
 button:hover{
-		
-		border: 20px solid #194775;
+		background-color:#194775;
+		border: 3px solid #C2D6D6;
 		color: white;
 	}
 }
+
+
+#modal {
+	left:50%;
+	margin:-250px 0 0 -40%;
+	opacity: 0;
+	position:relative;
+	top:-50%;
+	visibility: visible;
+	width:0%;
+	box-shadow:0 3px 7px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+
+}
+
+#modal:target {
+		opacity: 1;
+		top:50%;
+		visibility: visible;
+		
+	}
+
+#modal h7 {
+	text-align:center;
+	color: black;
+	font-size: 20px;
+
+}
+#modal .btn {
+	text-decoration: none;
+	color: White;
+	background-color:#194775;
+	height:50px;
+	border-radius:20%;
+	padding-top:10px;
+	float: right;
+}
+#modal .copy,#modal .work-container, #modal .test {
+	padding:20px;
+	font-size: 20px;
+	color: black;
+}
+.modal-content {
+	background-color:#F3F3F3;
+	border: 10px solid #194775;
+	border-radius:25px;
+	position:relative;
+	z-index: 20;
+	height: 300px;
+	width: 300px;
+}
+
+
+
+#modal-two {
+	left:50%;
+	margin:-250px 0 0 -40%;
+	opacity: 0;
+	position:relative;
+	top:-50%;
+	visibility: visible;
+	width:0%;
+	box-shadow:0 3px 7px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+
+}
+	/* Make the modal appear when targeted */
+	#modal-two:target {
+		opacity: 1;
+		top:50%;
+		visibility: visible;
+	}
+
+#modal-two h7 {
+	text-align:center;
+	color: black;
+	font-size: 20px;
+
+}
+#modal-two .btn {
+	float:right;
+	text-decoration: none;
+	color: White;
+	background-color:#194775;
+	height:50px;
+	border-radius:20%;
+	padding-top:10px;
+}
+#modal-two .copy,#modal-two .work-two-container, #modal-two .test-two {
+	padding:20px;
+	font-size: 20px;
+	color: black;
+}
+.modal-two-content {
+	background-color:#F3F3F3;
+	border: 10px solid #194775;
+	border-radius:25px;
+	position:relative;
+	z-index: 20;
+	height: 300px;
+	width: 300px;
+}
+
+
+
+#modal-three {
+	left:50%;
+	margin:-250px 0 0 -40%;
+	opacity: 0;
+	position:relative;
+	top:-50%;
+	visibility: hidden;
+	width:0%;
+	box-shadow:0 3px 7px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+
+}
+	/* Make the modal appear when targeted */
+	#modal-three:target {
+		opacity: 1;
+		top:50%;
+		visibility: visible;
+	}
+
+#modal-three h7 {
+	text-align:center;
+	color: black;
+	font-size: 20px;
+
+}
+#modal-three .btn {
+	float:right;
+	text-decoration: none;
+	color: White;
+	background-color:#194775;
+	height:50px;
+	border-radius:20%;
+	padding-top:10px;
+}
+#modal-three .copy,#modal-three .work-three-container, #modal-three .test-three {
+	padding:20px;
+	font-size: 20px;
+	color: black;
+}
+.modal-three-content {
+	background-color:#F3F3F3;
+	border: 10px solid #194775;
+	border-radius:25px;
+	position:relative;
+	z-index: 20;
+	height: 300px;
+	width: 300px;
+}
+
+
+
+
+#modal-four {
+	left:50%;
+	margin:-250px 0 0 -40%;
+	opacity: 0;
+	position:relative;
+	top:-50%;
+	visibility: hidden;
+	width:0%;
+	box-shadow:0 3px 7px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+
+}
+	/* Make the modal appear when targeted */
+	#modal-four:target {
+		opacity: 1;
+		top:50%;
+		visibility: visible;
+	}
+
+#modal-four h7 {
+	text-align:center;
+	color: black;
+	font-size: 20px;
+
+}
+#modal-four .btn {
+	float:right;
+	text-decoration: none;
+	color: White;
+	background-color:#194775;
+	height:50px;
+	border-radius:20%;
+	padding-top:10px;
+}
+#modal-four .copy,#modal-four .work-four-container, #modal-four .test-four {
+	padding:20px;
+	font-size: 20px;
+	color: black;
+}
+.modal-four-content {
+	background-color:#F3F3F3;
+	border: 10px solid #194775;
+	border-radius:25px;
+	position:relative;
+	z-index: 20;
+	height: 300px;
+	width: 300px;
+}
+
+
 
 
 
@@ -273,3 +506,5 @@ h5 {
 	}
 }
 
+
+	/* Make the modal appear when targeted */
