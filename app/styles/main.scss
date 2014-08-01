@@ -10,13 +10,12 @@ body {
 .border {
 	height: 10%;
 	width: 100%;
-	/*background-color: #194775;*/
 	background-color: #2d3c48;
 	position: fixed;
 	z-index: 10;
 	
 	li{
-		width: 6.250em;
+		width: 5.250em;
 		color: #C2D6D6;
 		display: inline-block;
 		font-weight: bold;
@@ -155,14 +154,16 @@ body {
 	}
 }
 
+.a{
+	display: inline-block;
+}
+
 .work-container {
-	height: 20%;
-	max-width: 100%;
+	width: 100%;
 	background-color: #F3F3F3;
 	padding-top: 0.625em;
 
 	p{
-		display: block;
 		text-align: center;
 		color: black;
 		font-size: 20px;
@@ -184,15 +185,6 @@ body {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
 
 #modal {
 	left:50%;
@@ -282,7 +274,7 @@ body {
 	background-color:#194775;
 	height:50px;
 	border-radius:20%;
-	padding-top:10px;
+	padding-top:0px;
 }
 
 #modal-two .copy,#modal-two .work-two-container, #modal-two .test-two {
@@ -297,7 +289,7 @@ body {
 	border-radius:25px;
 	position:relative;
 	z-index: 20;
-	height: 300px;
+	height: 400px;
 	width: 300px;
 }
 
