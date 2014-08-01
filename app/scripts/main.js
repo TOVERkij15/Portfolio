@@ -27,7 +27,7 @@ $(".projects-button").click(function() {
 
 $(".work-button").click(function() {
     $('body').animate({
-        scrollTop: $(".work-container").offset().top
+        scrollTop: $(".experience-container").offset().top
     }, 800);
 });
 
