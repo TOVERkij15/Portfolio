@@ -169,16 +169,15 @@ body {
 		font-size: 20px;
 	}
 
- 	button{
- 		width: 16.250em;
- 		height: 16.250em;
+ 	img{
  		background-color: #2d3c48;
  		border: 0.313em solid #C2D6D6;
  		color: white;
  		cursor: pointer;
+ 		margin-top: 0px;
 
 	
-		button:hover{
+		img:hover{
 			background-color: #194775;
 			border: 0.188em solid #C2D6D6;
 			color: white;
