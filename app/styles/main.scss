@@ -24,7 +24,6 @@ body {
 		margin-left: 7.125em;
 		cursor: pointer;
 		font-size: 1.250em;
-		
 	}
 }
 
@@ -156,9 +155,10 @@ body {
 }
 
 .experience-container{
-	background-color: grey;
+	background-color: #C2D6D6;
 	text-align: center;
 	padding:10px;
+
 }
 
 .col-one {
@@ -173,8 +173,13 @@ body {
 		color: #F3F3F3;
 		text-decoration: none;
 		font-size: 20px;
-		
+
 	}
+}
+
+.col-one:hover{
+	opacity: 0.5;
+	background-color: grey;
 }
 
 
@@ -192,9 +197,18 @@ body {
 		font-size: 20px;
 	
 	}
-
-
 }
+
+.col-two:hover{
+	opacity: 0.5;
+	background-color: grey;
+
+
+	p:hover{
+		color: white;
+	}
+}
+
 
 .col-three{
 	background-color: #2d3c48;
@@ -216,6 +230,11 @@ body {
 	
 }
 
+.col-three:hover {
+	opacity: 0.5;
+	background-color: grey;
+}
+
 .col-four{
 	background-color: #F3F3F3;
 	width: 100%;
@@ -229,6 +248,15 @@ body {
 		text-decoration: none;
 		font-size: 20px;
 		
+	}
+}
+
+.col-four:hover{
+	background-color: grey;
+	opacity: 0.5;
+
+	p{
+		color: white;
 	}
 }
 
@@ -493,26 +521,4 @@ body {
 		border-top: 0.125em solid #C2D6D6;
 		padding-bottom:0px;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
