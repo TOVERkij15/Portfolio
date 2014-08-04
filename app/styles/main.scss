@@ -97,13 +97,14 @@ body {
 }
 
 .project-container {
-	background-color: #F3F3F3;
+	/*background-color: #F3F3F3;*/
 	/*background: url("http://www.narrowdesign.com/img/bg.jpg")top center no-repeat fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
  	background-size: cover;
  	position: relative;*/
+ 	background:#F5F5F5;
 	color: black;
 	height: 90%;
 	max-width: 100%;
@@ -127,7 +128,7 @@ body {
 
 .project {
 	display: inline-block;
-	background-color: #F3F3F3;
+	background:url("http://www.narrowdesign.com/img/bg.jpg");
 	height: 11.875em;
 	width: 11.125em;
 	margin-top: 3.125em;
@@ -144,6 +145,7 @@ body {
 	}
 
 		a{
+			/*color: #222222;*/
 			color: white;
 			text-decoration: none;
 		}
