@@ -1,4 +1,4 @@
-
+'use strict';
 //navigation buttons
 
 $('.home-button').click(function() {
@@ -25,7 +25,7 @@ $('.projects-button').click(function() {
     }, 800);
 });
 
-$(".work-button").click(function() {
+$('.work-button').click(function() {
     $('body').animate({
         scrollTop: $('.experience-container').offset().top
     }, 800);

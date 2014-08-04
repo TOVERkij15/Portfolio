@@ -14,18 +14,28 @@ body {
 	background-color: #2d3c48;
 	position: fixed;
 	z-index: 10;
-	
-	li{
-		width: 5.250em;
-		color: #C2D6D6;
-		display: inline-block;
-		font-weight: bold;
-		margin-top: 1.875em;
-		margin-left: 7.125em;
-		cursor: pointer;
-		font-size: 1.250em;
+
+
+	li {
+	display:inline-block;
+	margin-right: 0.063em;
+	padding-left: 9.250em;
+	padding-top: 0.625em;
+	cursor: pointer;
+	font-size: 1.250em;
+	color: #C2D6D6;
+	background-color: #2d3c48;
+}
+
+	@media screen and (max-width : 660px){
+		li {
+		height: 1.250em;
+		font-size: 0.750em;
+		padding: 0.938em;
+		}
 	}
 }
+
 
 .header {
 	background-image: url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg");
@@ -249,16 +259,24 @@ body {
 	
 .social {
 	display: inline-block;
-	margin-left: 30.250em;
 	margin-bottom: 6.250em;
 	height: 50%;
 }	
 	
 	p{
-		
-		display: block;
 		font-size: 0.750em;
 		border-top: 0.125em solid #C2D6D6;
-		padding-bottom:0px;
+		padding-bottom:0em;
+	}
+
+
+@media screen and (max-width : 680px){
+		img {
+		margin-left: 2em;
+		padding-left: 1em;
+		height: 1.875em;
+		width: 1.875em;
+	
+		}
 	}
 }
