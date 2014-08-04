@@ -1,9 +1,10 @@
 
 body {
 	
-	font-family: 'Sintony', sans-serif;
+	/*font-family: 'Sintony', sans-serif;*/
+	font-family: sans-serif;
+	background-color: #8FBC8F;
 	color: white;
-	background-color: #C2D6D6;
 	margin:0 auto;
 	padding: 0;
 }
@@ -11,7 +12,8 @@ body {
 .border {
 	height: 10%;
 	width: 100%;
-	background-color: #2d3c48;
+	/*background-color: #2d3c48;*/
+	background-color: #222222;
 	position: fixed;
 	z-index: 10;
 
@@ -23,8 +25,9 @@ body {
 	padding-top: 0.625em;
 	cursor: pointer;
 	font-size: 1.250em;
-	color: #C2D6D6;
-	background-color: #2d3c48;
+	/*color: #C2D6D6;*/
+	color: #BDB76B;
+	background-color: #222222;
 }
 
 	@media screen and (max-width : 660px){
@@ -43,29 +46,31 @@ body {
   	-moz-background-size: cover;
   	-o-background-size: cover;
  	background-size: cover;
- 	position: relative;
+	position: relative;
  	margin: 0px;
  	padding-top:4.375em;
  	text-align: center;
  	height: 37.500em;
  	max-width: 100%;
- 		-webkit-transition: all 3s ease-in-out;
+ 	opacity: 0.7;
+	-webkit-transition: all 3s ease-in-out;
 	-moz-transition: all 2s ease-in-out;
 	-o-transition: all 2s ease-in-out;
 	transition: all 2s ease-in-out;
 	z-index: 1;
+	
 
 	h1 {
 		padding-top:30px;
 		font-size: 3.750em;
 		/*color: #194775;*/
-		color: #2d3c48;
+		/*color: #2d3c48;*/
+		color: black;
 		font-family: 'Pompiere', cursive;
 	}
 
 	h2 {
 		font-size: 1.250em;
-		
 	}
 
 	h3 {
@@ -81,6 +86,7 @@ body {
 	-moz-transition: all 2s ease-in-out;
 	-o-transition: all 2s ease-in-out;
 	transition: all 2s ease-in-out;
+	border-radius: none;
 
 }
 
@@ -103,7 +109,11 @@ body {
 }
 
 .project-container {
-	background-color: white;
+	background-image: url("http://www.narrowdesign.com/img/bg.jpg");
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
 	color: black;
 	height: 90%;
 	max-width: 100%;
@@ -149,7 +159,8 @@ body {
 		}
 	
 	button:hover{
-				background-color: #2d3c48;
+				/*background-color: #2d3c48;*/
+				background-color: #8FBC8F;
 				color: white;
 		}
 	}
@@ -204,7 +215,7 @@ body {
 #modal-four .btn {
 	text-decoration: none;
 	color: White;
-	background-color:#194775;
+	background-color:#BDB76B;
 	height:50px;
 	border-radius:20%;
 	padding-top:10px;
@@ -216,8 +227,9 @@ body {
 }
 
 .modal-four-content {
-	background-color:#F3F3F3;
-	border: 10px solid #194775;
+	background-color:white;
+	border: 10px solid #BDB76B;
+	color: white;
 	border-radius:25px;
 	position:relative;
 	z-index: 20;
@@ -226,7 +238,8 @@ body {
 }
 
 .footer {
-	background-color: #2d3c48;
+	/*background-color: #2d3c48;*/
+	background-color: #222222;
 	width: 100%;
 	height: 20%;
 	position: relative;
