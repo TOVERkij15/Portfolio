@@ -10,8 +10,14 @@ body {
  	position: relative;
  	background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)),url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg") top center no-repeat fixed; 
 	color: white;
-	margin:0 auto;
+	margin:0;
 	padding: 0;
+
+@media screen and (max-width : 660px){
+		body {
+		height: 1.250em;
+		}
+	}
 }
 
 .border {
@@ -102,9 +108,9 @@ body {
 	}
 
 
-	@media screen and (max-width : 680px){
-		container {
-		padding: 0.838em;
+	@media screen and (max-width : 660px){
+		.container {
+		margin:0;
 		}
 	}
 }
