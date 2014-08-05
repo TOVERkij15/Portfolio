@@ -100,7 +100,15 @@ body {
 		border-radius: 50%;
 		border: 0.375em solid #BDB76B;
 	}
+
+
+	@media screen and (max-width : 680px){
+		container {
+		padding: 0.838em;
+		}
+	}
 }
+
 
 .project-container {
 	background:#F5F5F5;
