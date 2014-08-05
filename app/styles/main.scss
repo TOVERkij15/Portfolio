@@ -1,4 +1,6 @@
 
+
+
 body {
 	
 	font-family: sans-serif;
@@ -12,7 +14,13 @@ body {
 	color: white;
 	margin:0;
 	padding: 0;
+
+@media screen and(max-width: 1800px){
+	body { background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)),url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg") top center no-repeat fixed; 
+		}
+	}
 }
+
 
 .border {
 	height: 10%;
@@ -33,7 +41,7 @@ body {
 	background-color: #222222;
 }
 
-	@media screen and (max-width : 660px){
+	@media screen and (max-width : 680px){
 		li {
 		height: 1.250em;
 		font-size: 0.750em;
@@ -57,9 +65,9 @@ body {
 		color: #222222;
 		font-family: sans-serif;
 	}
-@media screen and (max-width: 660px){
-	h1 {
-		font-size: 2.750em;
+		@media screen and (max-width: 660px){
+			h1 {
+				font-size: 2.750em;
 	}
 	
 }
@@ -77,6 +85,7 @@ body {
 		}
 	}
 }
+
 
 
 .container {
@@ -104,15 +113,7 @@ body {
 		border-radius: 50%;
 		border: 0.375em solid #BDB76B;
 	}
-
-
-	@media screen and (max-width : 660px){
-		.container {
-		margin:0;
-		}
-	}
 }
-
 
 .project-container {
 	background:#F5F5F5;
@@ -134,8 +135,7 @@ body {
 	img:hover{
 		opacity: 0.8;
 
-	}
-
+	}	
 
 .project {
 	display: inline-block;
@@ -143,7 +143,7 @@ body {
 	height: 11.875em;
 	width: 11.125em;
 	margin-top: 3.125em;
-	margin-left: 1.125em;
+	margin-left: 0.125em;
 	padding-right: 0.550em;
 
 	button{
@@ -163,9 +163,11 @@ body {
 	button:hover{
 				background-color: #8FBC8F;
 				color: white;
+		
 		}
 	}
 }
+
 
 .experience-container{
 	background:linear-gradient( rgba(127, 249, 143, 0.4),
