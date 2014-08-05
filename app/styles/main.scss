@@ -12,12 +12,6 @@ body {
 	color: white;
 	margin:0;
 	padding: 0;
-
-@media screen and (max-width : 660px){
-		body {
-		height: 1.250em;
-		}
-	}
 }
 
 .border {
@@ -57,14 +51,18 @@ body {
  	height: 37.500em;
  	max-width: 100%;
  	z-index: 1;
-	
-
 	h1 {
 		padding-top:30px;
 		font-size: 3.750em;
 		color: #222222;
 		font-family: sans-serif;
 	}
+@media screen and (max-width: 660px){
+	h1 {
+		font-size: 2.750em;
+	}
+	
+}
 
 	h2 {
 		font-size: 1.250em;
@@ -244,7 +242,6 @@ body {
 .resume-container{
 	color: black;
 	text-align: center;
-
 }
 
 
