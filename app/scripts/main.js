@@ -31,4 +31,11 @@ $('.work-button').click(function() {
     }, 800);
 });
 
+$('.resume-button').click(function(){
+    $('body').animate({
+        scrollTop: $('.resume-container').offset().top
+    }, 800);
+});
+
+
 
