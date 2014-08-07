@@ -126,8 +126,9 @@ body {
 	
 
 	img {
-		margin-left: 0.538em;
+		/*margin-left: 0.538em;*/
 		margin-top: 0.625em;
+		
 	}
 
 .project {
@@ -137,19 +138,20 @@ body {
 	width: 11.125em;
 	margin-top: 3.125em;
 	margin-left: 0.125em;
-	padding-right: 0.550em;
+	/*padding-right: 0.350em;*/
+	
 
 	button{
 		float:left;
-		margin-left: 2.200em;
+		margin-left: 2.125em;
 		font-size: 0.638em;
-		width: 5.725em;
-		height: 2.250em;
+		/*width: 5.725em;
+		height: 2.250em;*/
 		background-color: #BDB76B;
 		border: white;
 		color: white;
 		cursor: pointer;
-		border-radius:10px;
+		/*border-radius:10px;*/
 		
 	}
 
