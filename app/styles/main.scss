@@ -175,15 +175,21 @@ body {
  	rgba(127, 249, 143, 0.4)),url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg") top center no-repeat fixed;
 	color: white;
 	text-align: center;
-	height: 300px;
+	height: 500px;
 	width: 100%;
-	
 
-	.tool-container {
+
+		h2{
+			padding:0;
+			color: black;
+		}
+
+
+	/*.tool-container {
 		float:left;
-		margin-left:150px;
-		width: 200px;
-		height: 200px;
+		margin-left: 300px;
+		width: 170px;
+		height: 170px;
 		text-align: none;
 		color: black;
 		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
@@ -197,8 +203,8 @@ body {
 		float:left;
 		margin-bottom: 0px;
 		margin-left: 20px;
-		width: 200px;
-		height: 200px;
+		width: 170px;
+		height: 170px;
 		color: black;
 		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
 	
@@ -210,8 +216,8 @@ body {
 	.java-container {
 		float:left;
 		margin-left: 20px;
-		width: 200px;
-		height: 200px;
+		width: 170px;
+		height: 170px;
 		color: black;
 		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
 	
@@ -224,17 +230,48 @@ body {
 	.other-container {
 		float:left;
 		margin-left: 20px;
-		width: 200px;
-		height: 200px;
+		width: 170px;
+		height: 170px;
 		color: black;
 		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
 	
 		&:hover{
 			background-color:#BDB76B
-		}	
-	}
-}	
+		}*/
 
+	.tool-container {
+		float:left;
+		margin-left: 10px;
+		width: 180px;
+		height: 200px;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	}
+
+	.design-container {
+		float:left;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		width: 180px;
+		height: 200px;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	}
+
+	.other-container {
+		float:left;
+		margin-left: 10px;
+		width: 180px;
+		height: 200px;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	}
+
+	.java-container {
+		float:left;
+		margin-left: 10px;
+		width: 180px;
+		height: 200px;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	}	
+}
 
 .footer {
 	background-color: #222222;
@@ -288,5 +325,32 @@ body {
 		width: 1.875em;
 	
 		}
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 497px) {
+	.border {
+		li {
+			padding-left: 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 462px) {
+	.border {
+		width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 937px) {
+	
+	.tools-container {
+		margin-left: 100px;
 	}
 }
