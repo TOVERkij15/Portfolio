@@ -172,10 +172,11 @@ body {
 
 .experience-container{
 	display: inline-block;
-	background:linear-gradient( rgba(127, 249, 143, 0.4),
+	/*background:linear-gradient( rgba(127, 249, 143, 0.4),
  	rgba(127, 249, 143, 0.4),
- 	rgba(127, 249, 143, 0.4)),url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg") top center no-repeat fixed;
+ 	rgba(127, 249, 143, 0.4)),url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg") top center no-repeat fixed;*/
 	color: white;
+	background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)),url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg") top center no-repeat fixed;
 	text-align: center;
 	height: 600px;
 	width: 100%;
@@ -188,10 +189,11 @@ body {
 
 		.tool-container{
 			color: white;
-			background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+			/*background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));*/
 			height: 80%;
 			width: 90%;
 			margin-left: 4%;
+			background-color: #BDB76B;
 
 			h3{
 				padding-top:20px;
@@ -201,6 +203,7 @@ body {
 				color: black;
 				font-weight: bold;
 				font-size: 15px;
+				
 			}
 
 		} 
@@ -299,20 +302,6 @@ body {
 	max-width: 100%;
 	height: 20%;
 	position: relative;
-
-	img{
-		display: inline-block;
-		margin-top: 0.625em;
-		margin-bottom: 0;
-		color: white;
-		margin-left: 7.654em;
-		padding-left: 5.125em;
-
-	
-		img:hover {
-			opacity: 0.3;
-		}			
-	}
 		
 	h5 {
 		display: block;
@@ -329,6 +318,22 @@ body {
 	display: inline-block;
 	margin-bottom: 6.250em;
 	height: 50%;
+	margin-left: 100px;
+
+
+	img{
+		display: inline-block;
+		margin-top: 0.625em;
+		margin-bottom: 0;
+		color: white;
+		
+
+	
+		img:hover {
+			opacity: 0.3;
+		}			
+	}
+
 }	
 	
 	p{
@@ -338,7 +343,7 @@ body {
 	}
 
 
-@media screen and (max-width : 680px){
+/*@media screen and (max-width : 680px){
 		img {
 		margin-left: 2em;
 		padding-left: 1em;
@@ -346,7 +351,7 @@ body {
 		width: 1.875em;
 	
 		}
-	}
+	}*/
 }
 
 
@@ -375,3 +380,4 @@ body {
 		margin-left: 100px;
 	}
 }
+
