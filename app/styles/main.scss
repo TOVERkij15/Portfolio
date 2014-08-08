@@ -11,24 +11,26 @@ body {
 }
 
 
-/*.border {
+.border {
 	height: 10%;
 	background-color: #222222;
 	position: fixed;
 	z-index: 10;
 	width: 100%;
+	text-align: center;
 
 	li {
 	display:inline-block;
-	/*margin-right: 0.063em;*/
-	/*padding-left: 5.150em;*/
-	/*padding-top: 0.625em;
+	margin-right: 0.063em;
+	padding-left:50px;
+	padding-top: 0.625em;
 	cursor: pointer;
 	font-size: 1.250em;
 	color: #BDB76B;
 	background-color: #222222;
 	text-decoration: none;
-
+}
+}
 
 
 	@media only screen and (max-width : 400px){
@@ -111,8 +113,58 @@ body {
 	}
 }*/	
 
+.list {
+	margin: 0px auto;
+	display:inline-block;
+	width: 100%;
+	height: 50px;
+	background-color:#222222;
+	position:fixed;
 
+	.list-one {
+		padding-left:300px;
+		height: 50px;
+		background-size:cover;
+		background-color: #222222;
+		float:left;
+	
+	}
 
+	.list-two {	
+		height:50px;
+		background-size:cover;
+		background-color: #222222;
+		float:left;
+	}
+
+	.list-three {	
+		height: 50px;
+		background-size:cover;
+		background-color: #222222;
+		float:left;
+	}
+
+	.list-five {	
+		height: 50px;
+		background-size:cover;
+		background-color: #222222;
+		float:left;
+	}
+
+	.list-four {	
+		height: 50px;
+		background-size:cover;
+		background-color: #222222;
+		float:left;
+	}
+
+	.list-six{	
+		height: 50px;
+		background-size:cover;
+		background-color: #222222;
+		float:left;
+	}
+}
 
 .header {
 	position: relative;
@@ -188,7 +240,7 @@ body {
 	}
 }
 
-.list {
+/*.list {
 		position: fixed;
 		z-index: 10;
 		background-color: #222222;
@@ -198,7 +250,7 @@ body {
 		li {
 			width: 55px;
 			height: 40px;
-			padding-top: 13px;
+			padding-top: 9px;
 			color: #BDB76B;
 			font-size: 12px;
 			border: 0.375em solid #222222;
@@ -207,7 +259,7 @@ body {
 			background-color: #222222;
 
 		}
-	}
+	}*/
 
 
 .project-container {
@@ -243,17 +295,18 @@ body {
 		}
 
 	img {
-		border-radius: 100%;
+		margin-top: 20px;
 	}
 
 	.project {
 	display: inline-block;
-	/*background:url("http://www.narrowdesign.com/img/bg.jpg");*/
-	height: 10.875em;
-	width: 11.125em;
-	/*margin-top: 2.125em;*/
-	margin-left: 1.125em;
-	padding-right: 0.350em;
+	background:url("http://www.narrowdesign.com/img/bg.jpg");
+	height: 6.875em;
+	width: 8.125em;
+	margin-top: 2.125em;
+	margin-left: 10px;
+	padding-right: 7px;
+	padding-left: 7px;
 	}
 }
 
@@ -400,10 +453,10 @@ body {
 		display:block;
 		float:left;
 
-		img {
+		/*img {
 			border-radius: 100%;
 			background-color: black;
-		}
+		}*/
 	}
 	.sub-footer{
 			background-color: #222222;
