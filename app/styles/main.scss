@@ -21,148 +21,15 @@ body {
 
 	li {
 	display:inline-block;
-	margin-right: 0.063em;
-	padding-left:50px;
+	margin-right: 0.003em;
+	padding-left:8px;
 	padding-top: 0.625em;
 	cursor: pointer;
 	font-size: 1.250em;
 	color: #BDB76B;
 	background-color: #222222;
 	text-decoration: none;
-}
-}
-
-
-	@media only screen and (max-width : 400px){
-		
-			li {
-			padding-left:0px;
-
-			}
-		
-	}
-	
-
-	/*@media only screen and (max-width: 1261px) {
-		.border {
-			li {
-				padding-left: 6.25em;
-				
-			}
-		}
-	}
-
-		@media only screen and (max-width: 1146px) {
-			.border {
-				li {
-					padding-left: 5.25em;
-				}
-			}
-		}
-			@media only  screen and (max-width: 1026px) {
-			.border {
-				li {
-					padding-left: 4.25em;
-				}
-			}
-		}
-
-		@media only screen and (max-width: 910px) {
-			.border {
-				li {
-					padding-left: 3.25em;
-				}
-			}
-		}
-
-
-		@media only screen and (max-width: 723px) {
-			.border {
-				li {
-					padding-left: 2.25em;
-				}
-			}
-		}
-
-
-		@media only screen and (max-width: 648px) {
-			.border {
-				li {
-					padding-left: 1.25em;
-				}
-			}
-		}
-
-
-		@media only screen and (max-width: 503px) {
-			.border {
-				li {
-					padding-left: .70em;
-				}
-			}
-		}
-
-		@media screen and (max-width: 400px) {
-		
-				li {
-					font-size: 15px;
-					padding-left: 0.70em;
-				
-				}
-		}
-	}
-}*/	
-
-.list {
-	margin: 0px auto;
-	display:inline-block;
-	width: 100%;
-	height: 50px;
-	background-color:#222222;
-	position:fixed;
-
-	.list-one {
-		padding-left:300px;
-		height: 50px;
-		background-size:cover;
-		background-color: #222222;
-		float:left;
-	
-	}
-
-	.list-two {	
-		height:50px;
-		background-size:cover;
-		background-color: #222222;
-		float:left;
-	}
-
-	.list-three {	
-		height: 50px;
-		background-size:cover;
-		background-color: #222222;
-		float:left;
-	}
-
-	.list-five {	
-		height: 50px;
-		background-size:cover;
-		background-color: #222222;
-		float:left;
-	}
-
-	.list-four {	
-		height: 50px;
-		background-size:cover;
-		background-color: #222222;
-		float:left;
-	}
-
-	.list-six{	
-		height: 50px;
-		background-size:cover;
-		background-color: #222222;
-		float:left;
+	font-size:16px;
 	}
 }
 
@@ -240,28 +107,6 @@ body {
 	}
 }
 
-/*.list {
-		position: fixed;
-		z-index: 10;
-		background-color: #222222;
-		width:100%;
-		
-	
-		li {
-			width: 55px;
-			height: 40px;
-			padding-top: 9px;
-			color: #BDB76B;
-			font-size: 12px;
-			border: 0.375em solid #222222;
-			text-align: center;
-			display: inline-block;
-			background-color: #222222;
-
-		}
-	}*/
-
-
 .project-container {
 	background:#F5F5F5;
 	color: black;
@@ -274,8 +119,8 @@ body {
 	text-align: center;
 
 	button{
-		/*margin-left: 0.100em;*/
-		font-size: 0.638em;
+		margin-left: 0;
+		font-size: 0.538em;
 		background-color: #BDB76B;
 		border: white;
 		color: white;
