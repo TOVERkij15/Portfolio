@@ -31,6 +31,12 @@ body {
 	text-decoration: none;
 	font-size:16px;
 	}
+
+	@media screen and (max-width: 400px) {
+		li {
+			font-size: 10px;
+		}
+	}
 }
 
 .header {
@@ -199,7 +205,7 @@ body {
 		.figure {
 			text-align: center;
 			font-size: 12px;
-			margin-right: 5px;
+			margin-left:5px;
 		}
 	}
 
