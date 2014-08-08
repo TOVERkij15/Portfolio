@@ -1,0 +1,384 @@
+
+.project {
+	display: inline-block;
+	/*background:url("http://www.narrowdesign.com/img/bg.jpg");*/
+	height: 10.875em;
+	width: 11.125em;
+	/*margin-top: 2.125em;*/
+
+	margin-left: 1.125em;
+	padding-right: 0.350em;
+	}
+
+	/*button{
+		float:left;
+		margin-left: 2.125em;
+		font-size: 0.638em;
+		width: 5.725em;
+		height: 2.250em;
+		background-color: #BDB76B;
+		border: white;
+		color: white;
+		cursor: pointer;
+		border-radius:10px;
+		
+	}
+
+		a{
+			color: white;
+			text-decoration: none;
+
+		}
+	
+	button:hover{
+				background-color: #8FBC8F;
+				color: white;
+		
+		}*/
+
+
+/*.experience-container{
+	display: inline-block;
+	/*background:linear-gradient( rgba(127, 249, 143, 0.4),
+ 	rgba(127, 249, 143, 0.4),
+ 	rgba(127, 249, 143, 0.4)),url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg") top center no-repeat fixed;
+	color: white;
+	background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)),url("https://scontent-a-atl.xx.fbcdn.net/hphotos-xap1/t31.0-8/135464_1806875934205_2941125_o.jpg") top center no-repeat fixed;
+	text-align: center;
+	height: 600px;
+	width: 100%;
+
+
+		h2{
+			padding:0;
+			color: black;
+
+		}
+
+		.tool-container{
+			color: white;
+			/*background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+			height: 80%;
+			width: 90%;
+			margin-left: 4%;
+			background-color: #BDB76B;
+
+			h3{
+				padding-top:20px;
+				
+			}
+
+			p{
+				color: black;
+				font-weight: bold;
+				font-size: 15px;
+
+				
+			}
+
+		}*/
+
+
+	/*.tool-container {
+		float:left;
+		margin-left: 300px;
+		width: 170px;
+		height: 170px;
+		text-align: none;
+		color: black;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	
+		&:hover{
+			background-color:#BDB76B; 
+		}	
+	}
+
+	.design-container {
+		float:left;
+		margin-bottom: 0px;
+		margin-left: 20px;
+		width: 170px;
+		height: 170px;
+		color: black;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	
+		&:hover{
+			background-color:#BDB76B;
+		}	
+	}
+
+	.java-container {
+		float:left;
+		margin-left: 20px;
+		width: 170px;
+		height: 170px;
+		color: black;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	
+		&:hover{
+			background-color:#BDB76B;
+		}	
+
+	}
+
+	.other-container {
+		float:left;
+		margin-left: 20px;
+		width: 170px;
+		height: 170px;
+		color: black;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	
+		&:hover{
+			background-color:#BDB76B
+		}*/
+
+	/*.tool-container {
+		float:left;
+		margin-left: 10px;
+		width: 180px;
+		height: 200px;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	}
+
+	.design-container {
+		float:left;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		width: 180px;
+		height: 200px;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	}
+
+	.other-container {
+		float:left;
+		margin-left: 10px;
+		width: 180px;
+		height: 200px;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	}
+
+	.java-container {
+		float:left;
+		margin-left: 10px;
+		width: 180px;
+		height: 200px;
+		background:linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6));
+	}	
+}*/
+
+/*.footer {
+	background-color: #222222;
+	max-width: 100%;
+	height: 600px;
+	position: relative;
+		
+	h5 {
+		display: block;
+		text-align: center;
+		font-size: 1.875em; 
+		margin-top: 0;
+		padding-top: 1.125em;
+		overflow: hidden;
+		margin-bottom: 0;
+
+	}
+	
+
+	p{
+		text-align: center;
+		margin-bottom: 0;
+		color: #8FBC8F;
+	}
+}*/
+	
+	
+/*.social {
+	position: relative;
+	height: 80%;
+	max-width: 100%;
+	color: white;
+	font-size: 1.250em;
+	text-align: center;
+	padding-left: 4.125em;
+	padding-right: 3.125em;
+
+
+	.twitter{
+		float:left;
+		background-color: #222222;
+		height:300px;
+		width: 300px;
+		
+
+		p{
+			text-align: center;
+			font-size: 20px;
+			width:100px;
+		}
+
+	}
+
+	.blog {
+		float:left;
+		background-color: #222222;
+		height:300px;
+		width: 300px;
+		margin:0px;
+		
+		p{
+			text-align: center;
+			font-size: 20px;
+			width: 100px;
+		}
+
+
+	}
+
+	.email {
+		float:left;
+		background-color: #222222;
+		height:300px;
+		width: 300px;
+		margin:0px;
+		
+		p{
+			text-align: center;
+			font-size: 20px;
+			width:100px;
+		}
+	}
+
+	.git {
+		float:left;
+		background-color: #222222;
+		height:300px;
+		width: 300px;
+		margin:0px;
+
+		img {
+			background-color:black;
+			border-radius:100%;
+		}
+
+		p{
+			text-align: center;
+			font-size: 20px;
+			width:100px;
+		}
+
+	}
+
+	img{
+		margin-top: 0.625em;
+		margin-bottom: 0;
+		color: white;
+		margin-left: 10px;			
+
+	}
+
+}
+	
+	/*p{
+		font-size: 0.750em;
+		border-top: 0.125em solid #C2D6D6;
+		padding-bottom:0em;
+	}*/
+
+
+/*@media screen and (max-width : 680px){
+		img {
+		margin-left: 2em;
+		padding-left: 1em;
+		height: 1.875em;
+		width: 1.875em;
+	
+		}
+	}*/
+
+
+
+
+
+
+/*@media screen and (max-width: 497px) {
+	.border {
+		li {
+			padding-left: 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 462px) {
+	.border {
+		width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 937px) {
+	
+	.tools-container {
+		margin-left: 100px;
+	}
+}*/
+
+
+
+/* html
+
+<!--<div class="experience-container">       
+            <h2>EXPERIENCE  </h2>
+                <div class="tool-container">
+                    <h3>Developer Tools</h3>
+                        <p>Experience using workflow tools such as Git, Yeoman, Grunt, Gulp, Bower and deployment tools such as Heroku.</p>
+                <!--</div>-->
+                    <!--<div class="design-container">-->
+                    <!--<h3> Design Tools</h3>
+                        <p>Experience in HTML5, CSS with layouts, typography and CSS3 animations. SASS/Compass, responsive design, color theory, paper.js, and fabric.js.</p>
+                <!--</div>-->
+                <!--<div class="java-container">-->
+                    <!--<h3> Javascript</h3>
+                        <p>Experience in Javascript using jQuery, Underscore, Backbone, Parse(backend/database), Testing and API Integration</p>
+                <!--</div>-->
+                <!--<div class="other-container">-->
+                    <!--<h3> Other</h3>
+                        <p>10+ years using Microsoft Office.</p>
+                </div>
+
+        </div>-->*/
+
+
+/*<!--<div class="footer"> 
+            <h5>  Let's build something together!</h5>
+            <div class= "social">
+                    <div class="col-one"> 
+                        <p><a href="http://www.twitter.com/TashaKijsamnong"><img style="border: 0pt none ;" title="Become a friend" alt="" src="http://i788.photobucket.com/albums/yy162/donnasimone/roundblackbuttontwitter_zps7482ad6e.png" width="70" height="70" /></a></p>
+                        <p>Follow Me On Twitter<p>
+                           
+                    </div>
+                    <div class="col-two">
+                        <p><a href="http://tkijsamnong1987.wordpress.com/about/"><img style="border: 0pt none ;" title="Become a friend" alt="" src="http://i788.photobucket.com/albums/yy162/donnasimone/roundblackbuttonrss_zps979d9c8e.png" width="70" height="70" /></a></p>
+                        <p>VISIT MY BLOG!</p>
+                    </div>
+                    <div class="col-three">
+                       <p> <a href="mailto:kijsamnongt@gmail.com" ><img style="border: 0pt none ;" title="Email" alt="" src="http://i788.photobucket.com/albums/yy162/donnasimone/roundblackbuttonemail_zpsdb916cd8.png" width="70" height="70" /></a></p>
+                            <p>EMAIL ME</p>
+                    </div>
+                    <div class="col-four">
+                        <p> <a href="https://github.com/TOVERkij15"><img style="border: 0pt none;" title="Github" alt="" src="http://www.iconsdb.com/icons/download/white/github-10-512.png" width="70" height="70"/></a>  
+                           <p>VIEW GITHUB</p>
+                    </div>
+                    <div class="copyright">
+                        <p> © 2014 copyright Tasha Kijsamnong  </p>
+                    </div>
+             </div>
+        </div>-->*/
+
+  /* <!--<a href="http://www.twitter.com/TashaKijsamnong">
+                    <img style="border: 0pt none ;" src="https://g.twimg.com/Twitter_logo_white.png" width="50" height="50" /></a>
+                    <a href="http://tkijsamnong1987.wordpress.com/about/"><img src="http://scuttlenerdery.com/img/wordpress-logo-white.png" width="70" height="70" /></a>
+                    <a href="mailto:kijsamnongt@gmail.com" ><img style="border: 0pt none ;" title="Email" alt="" src="http://fargowinnelson.com/e-Mail.png" width="80" height="80" /></a>
+                    <a href="https://github.com/TOVERkij15"><img style="border: 0pt none;" title="Github" alt="" src="http://www.iconsdb.com/icons/download/white/github-10-512.png" width="80" height="80"/></a>  
+            </div>-->*/
