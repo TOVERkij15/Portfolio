@@ -124,6 +124,12 @@ body {
 	display: inline-block;
 	text-align: center;
 
+	p{
+		font-size: 16px;
+		color: black;
+
+	}
+
 	button{
 		margin-left: 0;
 		font-size: 0.538em;
@@ -146,14 +152,15 @@ body {
 		}
 
 	img {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
+
 
 	.project {
 	display: inline-block;
 	background:url("http://www.narrowdesign.com/img/bg.jpg");
-	height: 6.875em;
-	width: 8.125em;
+	height: 17.875em;
+	width: 11.125em;
 	margin-top: 2.125em;
 	margin-left: 10px;
 	padding-right: 7px;
